@@ -1,8 +1,33 @@
 .fullscreenimg {
-  background-image: url("/static/images/home.jpg");
+  background-image: url("/static/images/homepage.jpg");
   height: 100%; 
-
-  background-position: center;
+  width: 83%;
+  margin-left: 250;
+  margin-right: 0;
   background-repeat: no-repeat;
   background-size: cover;
 } 
+
+ 
+body {
+  background-color: 673147;
+}
+
+.page-title {
+  height: 40px;
+  width: auto;
+  padding-top: 10px;
+  font-size: 80px;
+  color: 006400; 
+  font-family: 'Cinzel Decorative', cursive;
+  text-align: center;
+}
+
+.page-subtitle {
+  width: auto;
+  font-size: 60;
+  color: 006400;
+  font-family: 'Miama', sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
