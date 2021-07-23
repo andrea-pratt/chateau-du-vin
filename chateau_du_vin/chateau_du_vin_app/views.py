@@ -6,4 +6,5 @@ def home(request):
     return render(request, 'home.html')
 
 
-
+def rates(request):
+    return render(request, 'rates.html')
