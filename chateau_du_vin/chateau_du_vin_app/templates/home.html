@@ -1,27 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.fullscreenimgm {
-
-  background-image: "/images/home.jpg";
-
-
-  height: 100%; 
-
-  
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-</style>
-</head>
+{% load static %}
 <body>
 
-<div class="fullscreenimg"></div>
+  <link rel="stylesheet" href="{% static 'css/base.css' %}" type="text/css">
+
+  <div class="fullscreenimg"></div>
+
+</body>
