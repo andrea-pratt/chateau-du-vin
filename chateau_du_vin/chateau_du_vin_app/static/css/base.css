@@ -98,6 +98,41 @@ a.guest:link, a.guest:visited {
     text-align: left; 
    }
    
+   a.register-link:link, a.register-link:visited {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    width: auto;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 135%;
+    position: absolute;
+    top: 150px;
+    left: -23px;
+   }
+
+
+   a.register-link:hover {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    width: auto;
+    text-align: right;
+    text-decoration: none;
+    color: rgb(17, 114, 38);
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 135%;
+    position: absolute;
+    top: 150px;
+    left: -23px;
+   }
+
+
+   
    
 
   
