@@ -8,3 +8,6 @@ def home(request):
 
 def rates(request):
     return render(request, 'rates.html')
+
+def about_owner(request):
+    return render(request, 'about_owner.html')

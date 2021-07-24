@@ -1,24 +1,35 @@
+
 .fullscreenimg {
   background-image: url("/static/images/homepage.jpg");
   height: 100%; 
   width: 83%;
-  margin-left: 250;
-  margin-right: 0;
   background-repeat: no-repeat;
   background-size: cover;
+  position: absolute;
+  right: 10;
+  left: 250
+
 } 
 
  
 body {
+  
   background-color: #673147;
-}
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  height:100%;
+  width:100%;
+} 
 
 .page-title {
   height: 40px;
   width: auto;
   padding-top: 10px;
   font-size: 80px;
-  color: #006400; 
+  color: #013b01; 
   font-family: 'Cinzel Decorative', cursive;
   text-align: center;
 }
@@ -26,7 +37,7 @@ body {
 .page-subtitle {
   width: auto;
   font-size: 60;
-  color: #006400;
+  color: #013b01;
   font-family: 'Miama', sans-serif;
   text-align: center;
   padding-top: 50px;
@@ -57,7 +68,7 @@ a.guest:link, a.guest:visited {
 
   a.account:link, a.account:visited {
 
-    background-color: #673147d0;
+    background-color: #673147d5;
     padding-top: 15px;
     padding-right: 20px;
     padding-bottom: 15px;
@@ -75,6 +86,24 @@ a.guest:link, a.guest:visited {
   a.account:hover, a.account:active {
     background-color: #673147;
     color: white;
-  }
+  }  
+
+  /* a.about-owner:link, a.about-owner:visited {
+
+    
+
+
+    color: black;
+    position: absolute;
+    top: 200px;
+    font-size: 10;
+    text-decoration: none;
+    text-align: left; 
+   }
+   
+   */
+
+  
+  
 
 
