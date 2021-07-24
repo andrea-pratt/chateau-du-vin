@@ -88,20 +88,17 @@ a.guest:link, a.guest:visited {
     color: white;
   }  
 
-  /* a.about-owner:link, a.about-owner:visited {
-
-    
-
+  a.about-owner:link, a.about-owner:visited {
 
     color: black;
-    position: absolute;
+    position: relative;
     top: 200px;
-    font-size: 10;
+    font-size: 50%;
     text-decoration: none;
     text-align: left; 
    }
    
-   */
+   
 
   
   
