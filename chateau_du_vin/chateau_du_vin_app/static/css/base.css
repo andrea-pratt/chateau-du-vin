@@ -10,7 +10,7 @@
 
  
 body {
-  background-color: 673147;
+  background-color: #673147;
 }
 
 .page-title {
@@ -18,7 +18,7 @@ body {
   width: auto;
   padding-top: 10px;
   font-size: 80px;
-  color: 006400; 
+  color: #006400; 
   font-family: 'Cinzel Decorative', cursive;
   text-align: center;
 }
@@ -26,15 +26,15 @@ body {
 .page-subtitle {
   width: auto;
   font-size: 60;
-  color: 006400;
+  color: #006400;
   font-family: 'Miama', sans-serif;
   text-align: center;
   padding-top: 50px;
 }
 
-a.one:link, a.one:visited {
+a.guest:link, a.guest:visited {
 
-    background-color: 673147;
+    background-color: #673147e0;
     padding-top: 15px;
     padding-right: 20px;
     padding-bottom: 15px;
@@ -46,12 +46,18 @@ a.one:link, a.one:visited {
     font-size: 25;
     position: absolute;
     top: 385px;
-    right: 1003;
+    right: 1005;
   }
 
-  a.two:link, a.two:visited {
+  a.guest:hover, a.guest:active {
 
-    background-color: 673147;
+  background-color: #673147;
+  color: white;
+  }
+
+  a.account:link, a.account:visited {
+
+    background-color: #673147d0;
     padding-top: 15px;
     padding-right: 20px;
     padding-bottom: 15px;
@@ -64,6 +70,11 @@ a.one:link, a.one:visited {
     position: absolute;
     top: 385px;
     left: 1258px;
+  }
+
+  a.account:hover, a.account:active {
+    background-color: #673147;
+    color: white;
   }
 
 
