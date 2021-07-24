@@ -18,9 +18,9 @@ body {
   top:0px;
   left:0px;
   right:0px;
-  bottom:0px;
+  bottom:100px;
   height:98.5%;
-  width:98.5%;
+  width:98.2%;
 } 
 
 .page-title {
@@ -35,7 +35,7 @@ body {
 
 .page-subtitle {
   width: auto;
-  font-size: 60;
+  font-size: 65px;
   color: #013b01;
   font-family: 'Miama', sans-serif;
   text-align: center;
@@ -53,7 +53,7 @@ a.guest:link, a.guest:visited {
     text-decoration: none;
     color: white;
     font-family: 'Cinzel Decorative', cursive;
-    font-size: 25;
+    font-size: 135%;
     position: absolute;
     top: 385px;
     right: 1005;
@@ -77,10 +77,10 @@ a.guest:link, a.guest:visited {
     text-decoration: none;
     color: white;
     font-family: 'Cinzel Decorative', cursive;
-    font-size: 25;
+    font-size: 135%;
     position: absolute;
     top: 385px;
-    left: 1075px;
+    left: 1021px;
   }
 
   a.account:hover, a.account:active {
