@@ -6,9 +6,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  right: 10;
-  left: 250
-
+  margin-left: 18%;
+  
 } 
 
  
@@ -20,8 +19,8 @@ body {
   left:0px;
   right:0px;
   bottom:0px;
-  height:100%;
-  width:100%;
+  height:98.5%;
+  width:98.5%;
 } 
 
 .page-title {
@@ -70,9 +69,10 @@ a.guest:link, a.guest:visited {
 
     background-color: #673147d5;
     padding-top: 15px;
-    padding-right: 20px;
+    padding-right: 15px;
     padding-bottom: 15px;
     padding-left: 20px;
+    width: auto;
     text-align: right;
     text-decoration: none;
     color: white;
@@ -80,7 +80,7 @@ a.guest:link, a.guest:visited {
     font-size: 25;
     position: absolute;
     top: 385px;
-    left: 1258px;
+    left: 1075px;
   }
 
   a.account:hover, a.account:active {
