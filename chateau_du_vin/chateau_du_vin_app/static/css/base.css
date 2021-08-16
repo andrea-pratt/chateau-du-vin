@@ -100,43 +100,23 @@ a.guest:link, a.guest:visited {
    }
    
    a.register-link:link, a.register-link:visited {
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    width: auto;
-    text-align: right;
-    text-decoration: none;
-    color: white;
+    text-decoration: none; 
+    color: rgb(2, 36, 7);
     font-family: 'Cinzel Decorative', cursive;
     font-size: 135%;
-    position: absolute;
-    top: 150px;
-    left: -23px;
    }
 
 
    a.register-link:hover {
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    width: auto;
-    text-align: right;
-    text-decoration: none;
-    color: rgb(17, 114, 38);
-    font-family: 'Cinzel Decorative', cursive;
-    font-size: 135%;
-    position: absolute;
-    top: 150px;
-    left: -23px;
+    color: rgb(6, 71, 20);
    }
 
    ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    padding-bottom: 12px;
+    padding-bottom: 36px;
+    padding-top: 2px;
     width: 277px;
     background-color: #3d1d2a;
     position: absolute;
@@ -150,21 +130,32 @@ a.guest:link, a.guest:visited {
     color: rgb(252, 251, 248);
     padding: 8px 16px;
     text-decoration: none;
-    border: #3d1d2a;
-    border-style: inset;
     border: rgb(1, 27, 4);
-    border-style: ridge;
-    border-bottom: none;
+    border-style: inset;
+    border-top: none;
+    font-size: large;
   }
   
   li a.active {
     background-color: rgb(249, 252, 250);
     color: rgb(1, 29, 6);
+    font-size: x-large;
+    
   }
   
   li a:hover:not(.active) {
     background-color: #555;
     color: white;
+  }
+
+  .login-form {
+    position: absolute;
+    left: 300px;
+  }
+
+  .register-form {
+    position: absolute;
+    left: 300px;
   }
 
 
