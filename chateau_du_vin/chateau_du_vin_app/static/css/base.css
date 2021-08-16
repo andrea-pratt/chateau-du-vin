@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
+  top: -7px;
   margin-left: 18%;
   
 } 
@@ -13,7 +14,7 @@
  
 body {
   
-  background-color: #673147;
+  background-color: #f8f4f5;
   position:absolute;
   top:0px;
   left:0px;
@@ -130,6 +131,41 @@ a.guest:link, a.guest:visited {
     top: 150px;
     left: -23px;
    }
+
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 12px;
+    width: 277px;
+    background-color: #3d1d2a;
+    position: absolute;
+    top: -7px;
+    left: -7px;
+   
+  }
+  
+  li a {
+    display: block;
+    color: rgb(252, 251, 248);
+    padding: 8px 16px;
+    text-decoration: none;
+    border: #3d1d2a;
+    border-style: inset;
+    border: rgb(1, 27, 4);
+    border-style: ridge;
+    border-bottom: none;
+  }
+  
+  li a.active {
+    background-color: rgb(249, 252, 250);
+    color: rgb(1, 29, 6);
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
 
 
    
