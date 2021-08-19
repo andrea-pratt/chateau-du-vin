@@ -125,7 +125,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-LOGIN_REDIRECT_URL = 'rates'
+LOGIN_REDIRECT_URL = 'packages'
 LOGOUT_REDIRECT_URL = 'home'
 
 # Default primary key field type
