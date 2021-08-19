@@ -12,23 +12,24 @@
     @import url('http://fonts.cdnfonts.com/css/miama');
   </style>
 
+  <link rel="stylesheet" href="{% static 'css/base.css' %}" type="text/css">
+
 </head>
 
 
 <body>
 
-  <link rel="stylesheet" href="{% static 'css/base.css' %}" type="text/css">
+<div class=page-content>
+    <div class="fullscreenimg">
 
-  <div class="fullscreenimg">
+        <div class="page-title">Château du Vin</div>
+        <div class="page-subtitle">Experience Elegance</div>
+        <div class="guest-link"><a class="guest" href="{% url 'rates' %}">Explore as Guest</a></div>
+        <div class="login-link"><a class="account" href="{% url 'login' %}">Signup or Login</a></div>
 
-      <div class="page-title">Château du Vin</div>
-      <div class="page-subtitle">Experience Elegance</div>
-      <div class="guest-link"><a class="guest" href="{% url 'rates' %}">Explore as Guest</a></div>
-      <div class="login-link"><a class="account" href="{% url 'login' %}">Signup or Login</a></div>
-      <div class="about-owner"><a class="about-owner" href="{% url 'about' %}">
+    </div>
 
   </div>
-
     
 {% endblock %}
 

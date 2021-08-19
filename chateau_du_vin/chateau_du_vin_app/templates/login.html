@@ -2,36 +2,37 @@
 {% load static %}
 {% block content %}
 
-<div class=login-form>
+<div class=page-content>
+  <div class=login-form>
 
-  <link rel="stylesheet" href="{% static 'css/base.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" type="text/css">
 
-  <h2>Log in</h2>
+    <h2>Log in</h2>
 
-  <div class="message">
-    {% if message %}
-      <p>{{ message }}</p>
+    <div class="message">
+      {% if message %}
+        <p>{{ message }}</p>
+      {% endif %}
+    </div>
+
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+        <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+        {% endfor %}
+    </ul>
     {% endif %}
+
+    <form method="POST" action="">
+      <table id='login-form'>
+        {% csrf_token %}
+        {{ form.as_table }}
+      </table>
+      <button type="submit">Login</button>
+    </form>
+
+    <p><a class="register-link" href="{% url 'register' %}">Or create an account</a></p>
   </div>
-
-  {% if messages %}
-  <ul class="messages">
-      {% for message in messages %}
-      <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
-      {% endfor %}
-  </ul>
-  {% endif %}
-
-  <form method="POST" action="">
-    <table id='login-form'>
-      {% csrf_token %}
-      {{ form.as_table }}
-    </table>
-    <button type="submit">Login</button>
-  </form>
-
-  <p><a class="register-link" href="{% url 'register' %}">Or create an account</a></p>
-
 </div>
 
 {% endblock %}

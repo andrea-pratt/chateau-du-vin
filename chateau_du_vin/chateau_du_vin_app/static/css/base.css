@@ -2,18 +2,16 @@
 .fullscreenimg {
   background-image: url("/static/images/homepage.jpg");
   height: 100%; 
-  width: 83%;
+  width: 101%;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   top: -7px;
-  margin-left: 18%;
   
 } 
 
  
 body {
-  
   background-color: #f8f4f5;
   position:absolute;
   top:0px;
@@ -148,15 +146,19 @@ a.guest:link, a.guest:visited {
     color: white;
   }
 
-  .login-form {
+  .page-content {
     position: absolute;
-    left: 300px;
+    left: 269px;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
   }
 
-  .register-form {
-    position: absolute;
-    left: 300px;
+  .login-form, .register-form {
+    position: relative;
+    left: 30px;
   }
+
 
 
    
