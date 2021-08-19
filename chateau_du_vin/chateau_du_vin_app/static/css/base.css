@@ -146,7 +146,7 @@ a.guest:link, a.guest:visited {
     color: white;
   }
 
-  .page-content {
+  .home-page-content {
     position: absolute;
     left: 269px;
     top: 0%;
@@ -154,17 +154,8 @@ a.guest:link, a.guest:visited {
     right: 0%;
   }
 
-  .login-form, .register-form {
-    position: relative;
-    left: 30px;
+  .page-content {
+    position: absolute;
+    left: 300px;
+    
   }
-
-
-
-   
-   
-
-  
-  
-
-
